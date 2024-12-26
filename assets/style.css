@@ -145,7 +145,7 @@ main hr {
 
 footer {
     background-color: rgb(18, 29, 53);
-    height: 233px;
+    /* height: 233px; */
 }
 
 .footer {
@@ -399,39 +399,40 @@ footer {
 
     .firstSection > div {
         width: 100%; 
-        margin-bottom: 20px; /
+        margin-bottom: 20px; 
     }
 
     .rightSection img {
         width: 80%;
-        max-width: 300px; /
+        max-width: 300px; 
     }
 
    
     .secondSection {
-        padding: 20px;
+        padding: 20%;
     }
     .secondSection h1{
         margin: 0;
     }
     
-    .box {
-        margin: 0%;
+    .box{
         width: 2px;
-        height: 200px;
+        height: 260px;
+        display:grid;
     }
-    
     
     .secondSection .vertical {
         position: relative;
-        top: -140px;
-        right: 120px;
+        top: -100%;
+        right: 44%;
         height: 1px;
         width: 50px;
     }
+    .vertical{
+        
+    }
 
     .vertical-title {
-        font-size: 15px;
         text-align: center;
         font-size: 10px;
         margin: 20% 15px 10px 140px;
@@ -468,7 +469,7 @@ footer {
         font-size: 0.85rem; 
     }
     .fourthSection{
-        margin-top: 270%;
+        margin-top: 180%;
     }
     .education-vertical{
         display: none;
@@ -477,23 +478,26 @@ footer {
         display: none;
     }
     .fifthSection{
-        margin-top: 100%;
+        margin-top: 70%;
     }
     .list{
         display: inline;
     }
     .footer{
-        position: relative;
-        top: 90%;
-        display: inline;
+        margin-top: 25%;
+        flex-direction: column; 
     }
     .footer-second{
        display: none;
     }
     .main,hr{
-        display: none;;
+        display: none;
     }
     .copyright{
         font-size: 0.5rem;
+    }
+    .footer-third li{
+        font-size: 0.7rem;
+        margin: 0;
     }
 }
