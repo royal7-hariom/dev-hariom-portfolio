@@ -94,7 +94,7 @@ main hr {
 .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 700px;
+    height: 750px;
 }
 
 .secondSection h1 {
@@ -193,13 +193,17 @@ footer {
 
 .project-block {
     width: 300px;
-    height: 450px;
+    height: 500px;
     background-color: rgb(18, 29, 53);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgb(0, 45, 143);
+}
+.project-block a{
+    text-decoration: none;
+    color: white;
 }
 
 .project-block img {
@@ -325,7 +329,7 @@ footer {
 .fifthSection {
     max-width: 80vw;
     margin: auto;
-    height: 200px;
+    height: 300px;
 }
 
 .fifthSection h1 {
@@ -480,7 +484,7 @@ footer {
         display: inline;
     }
     .footer{
-        margin-top: 25%;
+        margin-top: 35%;
         flex-direction: column; 
     }
     .footer-second{
@@ -509,7 +513,7 @@ footer {
         margin-top: 150%;
     }
     .footer{
-        margin-top: 55%;
+        margin-top: 65%;
         flex-direction: column; 
     }
 }
@@ -525,7 +529,7 @@ footer {
         margin-top: 725px;
     }
     .footer{
-        margin-top: 55%;
+        margin-top: 65%;
         flex-direction: column; 
     }
 }
