@@ -428,10 +428,6 @@ footer {
         height: 1px;
         width: 50px;
     }
-    .vertical{
-        
-    }
-
     .vertical-title {
         text-align: center;
         font-size: 10px;
@@ -499,5 +495,37 @@ footer {
     .footer-third li{
         font-size: 0.7rem;
         margin: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fourthSection{
+        margin-top: 280%;
+    }
+    .fifthSection{
+        margin-top: 150%;
+    }
+    .footer{
+        margin-top: 55%;
+        flex-direction: column; 
+    }
+}
+@media only screen and (max-width: 992px){
+    .navbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fourthSection{
+        margin-top: 280%;
+    }
+    .fifthSection{
+        margin-top: 150%;
+    }
+    .footer{
+        margin-top: 55%;
+        flex-direction: column; 
     }
 }
